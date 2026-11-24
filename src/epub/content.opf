@@ -58,8 +58,8 @@
 		<dc:source>https://archive.org/details/bwb_W9-CZP-521</dc:source>
 		<!-- 1871 edition, Preface -->
 		<dc:source>https://archive.org/details/hoosierschoolmas00egglrich</dc:source>
-		<meta property="schema:wordCount">49842</meta>
-		<meta property="schema:educationalLevel">79.8</meta>
+		<meta property="schema:wordCount">49834</meta>
+		<meta property="schema:educationalLevel">71.34</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Hoosier_Schoolmaster_(novel)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
