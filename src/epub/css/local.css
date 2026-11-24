@@ -94,3 +94,24 @@ section[epub|type~="dedication"] footer{
 	text-transform: uppercase;
 }
 /* end special emphasis */
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
+}
